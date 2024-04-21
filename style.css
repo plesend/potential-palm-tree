@@ -119,8 +119,8 @@ header {
     background-color: #1E1E1E;
     justify-content: space-between;
     line-height: 40px;
+    position: fixed;
 }
-
 .nav-item {
   margin: 0 10px;
   padding: 10px;
@@ -171,6 +171,7 @@ header {
 .background {
   background:  linear-gradient(to bottom, #4C5767, #717578);
   margin: 0px;
+  width: 100%;
 }
 /*.findticket {
   background-color: white;
@@ -207,9 +208,10 @@ button {
 }
 .shortinfo {
   color: white;
-  margin: 30px;
+  margin: 30px 30px 0px 30px;
+  padding-bottom: 30px;
 }
-.shortinfo hr {
+hr {
   color: white;
 }
 .shortinfo h2 {
@@ -221,11 +223,12 @@ button {
 }
 .shortinfo div {
   width: 70%;
-  margin-bottom: 20px;
+
 }
 .second-text {
   text-align: right;
 }
+
 footer {
   background-color: #1E1E1E;
   padding: 20px;
@@ -236,8 +239,29 @@ footer {
 footer a {
   margin: 10px;
 }
-
+/**/
 .partners-page h1 {
   color: #B5C2D7;
   text-align: center;
 }
+.partnersmain {
+  color: white;
+  width: 100%;
+  font-size: 25px;
+}
+.partnersmain h2 {
+  padding: 10px 30px;
+}
+.partnersmain p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 0px 30px;
+}
+.partnersmain img {
+  padding: 0px;
+  width: 100%;
+  margin: 0px;
+  height: 500px;
+}
+
+
