@@ -107,11 +107,14 @@
   padding: 0;
 }
 .container {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-header {
+  margin-top: 60px;
+    z-index: 1;
+      display: flex;
+      flex-flow: row wrap;
+      position: relative;
+  }
+  header {
+    z-index: 2;
     width: 100%;
     padding: 10px;
     height: 40px;
@@ -120,7 +123,8 @@ header {
     justify-content: space-between;
     line-height: 40px;
     position: fixed;
-}
+    top:0;
+  }
 .nav-item {
   margin: 0 10px;
   padding: 10px;
@@ -240,7 +244,7 @@ footer a {
   margin: 10px;
 }
 /**/
-.partners-page h1 {
+.head-page h1 {
   color: #B5C2D7;
   text-align: center;
 }
@@ -263,5 +267,20 @@ footer a {
   margin: 0px;
   height: 500px;
 }
-
+/**/
+.informationmain {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+}
+.info-menu {
+  width: 33%;
+  padding-left: 20px;
+  height: 100vh;
+  background-color: #1E1E1E;
+  color: white;
+}
+section {
+  color: white;
+}
 
