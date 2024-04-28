@@ -280,56 +280,42 @@ footer a {
   width: 100%;
   font-size: 25px;
 }
-.informationmain h2 {
+
+.questions h2 {
   padding: 10px 30px;
 }
-.informationmain p {
+
+.questions p {
   margin-top: 5px;
   margin-bottom: 10px;
   padding: 0px 30px;
 }
+
+.questions {
+  color: white;
+  margin: auto;
+  width: 150%;
+}
+
+.questions hr {
+  width: 95%;
+  margin: auto;
+}
+
 .info-menu {
-  width: 33%;
-  height: 100vh;
+  width: 40%;
   background-color: #1E1E1E;
   color: white;
   padding-left: 40px;
 }
-
-.info-menu a {
+.biden {
   position: fixed;
 }
-.questions section {
-  color: white;
-  height: 100vh;
-  margin: auto;
-}
-/*.outer-list {
-  list-style-type: none;
-  padding-left: 0;
-}
 
-.inner-list {
-  list-style-type: circle;
-  padding-left: 20px;
-  display: none;
+section ul {
+  padding-left: 70px;
+  padding-right: 30px;
 }
-
-.inner-list li {
-  margin-bottom: 5px;
-}
-@keyframes fadeIn {
-  from {
-    display: none;
-  }
-  to {
-    display:inline;
-  }
-}
-.anim:hover .inner-list {
-  animation: fadeIn 0.5s ease;
-}*/
-
 
 .info-menu li {
   font-size: 20px;
@@ -337,16 +323,15 @@ footer a {
 }
 .info-menu a:hover {
   background-color: #333;
-}
-.info-menu a {
+  transition: 0.3s;
   padding: 5px;
   border-radius: 4px;
 }
 
 .sub-list li {
   list-style: none;
-  padding-left: 10px;
 }
+
 
 /* Стили для раскрывающегося списка 
 .sub-list {
