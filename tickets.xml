@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+
+<tickets>
+    <block>
+        <image>photo/tick/Швейцария.jpg</image>
+        <place>Минск - Берн</place>
+        <date-and-time>30.11.2024 18:10</date-and-time>
+        <econom>Эконом-класс</econom>
+        <business>Бизнес-класс</business>
+        <prem>Премиум-комфорт класс</prem>
+        <price-econom>1 122 BYN</price-econom>
+        <price-business>1 264 BYN</price-business>
+        <price-prem>1 350 BYN</price-prem>
+    </block>
+</tickets>

@@ -126,6 +126,10 @@
     top:0;
   }
 
+.main-page-main {
+  background:  linear-gradient(to bottom, #4C5767, #717578);
+}
+
 a {
   text-decoration: none;
   color:white;
@@ -162,7 +166,7 @@ a {
 .ticket { 
   width: 70%;
   text-align: center;
-  margin: 0px auto;
+  margin: 10px auto;
 }
 
 .banner img{
@@ -175,11 +179,6 @@ a {
   background-color: #D9D9D9;
   border-radius: 25px;
   
-}
-.background {
-  background:  linear-gradient(to bottom, #4C5767, #717578);
-  margin: 0px;
-  width: 100%;
 }
 /*.findticket {
   background-color: white;
@@ -331,33 +330,50 @@ section ul {
 .sub-list li {
   list-style: none;
 }
-
-
-/* Стили для раскрывающегося списка 
-.sub-list {
-  display: none;
-  list-style: none;
-  padding: 0;
-  position: absolute;
-  top: 100%;
-  left: 0;
+/**/
+.ticketsmain {
   width: 100%;
-  background-color: #fff;
+  background:  linear-gradient(to bottom, #4C5767, #717578);
+}
+.search-ticket {
+  display: flex;
+  flex-direction: row;
+  background-color: #D9D9D9;
+  border: none;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+  height: 170px;
 }
 
-.sub-list li {
-  margin-bottom: 5px;
+.search-ticket img {
+  height: 100%;
+  width: 15%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
-
-/* Стили при наведении курсора 
-li:hover .sub-list {
-  display: block;
+.time-and-place {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  margin: 20px;
+  width: 70%;
 }
-li:hover .sub-list:nth-child(n+1) {
-  margin-top:30px; 
-  display: block;
+.time-and-place div {
+  font-size: 20px;
 }
-li:hover .link1{
-  margin-top:30px;
+.class-and-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-*/
+/*xml*/
+tickets{
+  background:  linear-gradient(to bottom, #4C5767, #717578);
+}
+block {
+  background-color: #D9D9D9;
+  margin: 30px;
+}
