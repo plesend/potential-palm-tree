@@ -14,4 +14,28 @@
         <price-business>1 264 BYN</price-business>
         <price-prem>1 350 BYN</price-prem>
     </block>
+
+    <block>
+        <image>photo/tick/Шанхай.jpg</image>
+        <place>Минск - Шанхай</place>
+        <date-and-time>19.12.2024 2:10</date-and-time>
+        <econom>Эконом-класс</econom>
+        <business>Бизнес-класс</business>
+        <prem>Премиум-комфорт класс</prem>
+        <price-econom>1 432 BYN</price-econom>
+        <price-business>1 674 BYN</price-business>
+        <price-prem>1 850 BYN</price-prem>
+    </block>
+
+    <block>
+        <image>photo/tick/Токио.jpg</image>
+        <place>Минск - Токио</place>
+        <date-and-time>16.10.2024 20:10</date-and-time>
+        <econom>Эконом-класс</econom>
+        <business>Бизнес-класс</business>
+        <prem>Премиум-комфорт класс</prem>
+        <price-econom>1 532 BYN</price-econom>
+        <price-business>1 774 BYN</price-business>
+        <price-prem>1 950 BYN</price-prem>
+    </block>
 </tickets>

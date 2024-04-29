@@ -12,35 +12,47 @@ fetch(xmlPath)
   .then(response => response.text())
   .then(xml => {
     const parser = new DOMParser();
-    const xmlDocument = parser.parseFromString(xml, "application/xml");//не трогай, константы можешь переименовать
+    const xmlDocument = parser.parseFromString(xml, "application/xml");
 
-    const ticketshow = xmlDocument.getElementsByTagName("tickets");//меняешь название константы условно на tickets(типа самый главный тег твой в xml)
-    //а в скобках меняешь на тег элемента, типа ticket
+    const ticketshow = xmlDocument.getElementsByTagName("tickets");
 
-    const divContainer = document.getElementById("block");//в скобках указываешь id дива куда будешь загружать div с инфой
-    for(let i = 0; i < ticketshow.length; i++)//поменять название константы, где длина
+    const divContainer = document.getElementById("chupapimunyanya");
+    for(let i = 0; i < ticketshow.length; i++)
     {
       const ticket = ticketshow[i];//везде тут названия меняешь на свои
-      const points = boat.getElementsByTagName("place")[0].textContent;//в скобках указываешь эээ теги с инфой о билете
-      const dateandtime = boat.getElementsByTagName("date-and-time")[0].textContent;
-      const economclass = boat.getElementsByTagName("econom")[0].textContent;
-      const businessclass = boat.getElementsByTagName("business")[0].textContent;
-      const premclass = boat.getElementsByTagName("prem")[0].textContent;
-      const image = boat.getElementsByTagName("image")[0].textContent;
-      const economprice = boat.getElementsByTagName("price-econom")[0].textContent;
-      const businessprice = boat.getElementsByTagName("price-business")[0].textContent;
-      const premprice = boat.getElementsByTagName("price-pre")[0].textContent;
-
+      const place = ticket.getElementsByTagName("place")[0].textContent;//в скобках указываешь эээ теги с инфой о билете
+      const dateandtime = ticket.getElementsByTagName("date-and-time")[0].textContent;
+      const economclass = ticket.getElementsByTagName("econom")[0].textContent;
+      const businessclass = ticket.getElementsByTagName("business")[0].textContent;
+      const premclass = ticket.getElementsByTagName("prem")[0].textContent;
+      const image = ticket.getElementsByTagName("image")[0].textContent;
+      const economprice = ticket.getElementsByTagName("price-econom")[0].textContent;
+      const businessprice = ticket.getElementsByTagName("price-business")[0].textContent;
+      const premprice = ticket.getElementsByTagName("price-prem")[0].textContent;
+        console.log(place);
       const flightinfo = document.createElement("div");//получается создаешь элемент div, куда вся инфа пойдет
       flightinfo.classList.add("flight-info-container");//задаешь этому диву класс
       flightinfo.innerHTML = `
-      <img src="${image}" width="300px" height="300px" onclick="">
-        <p class="itemsubinfo">${avaliable}</p>
-        <p>${name}</p>
-        <p>Цена: ${price}</p>
-      `;//а вот самое веселое, сюда пишешь код, который будет у тебя в диве, т.е. вся инфа, используя константы, которые мы ранее задали
-      //для этого я и заставлял тебя прописать весь код странички
-      divContainer.appendChild(boatInfo);//вставляешь div с инфой в свой контейнер
+                <img src="${image}"> 
+                <div class="time-and-place">
+                    ${place}
+                    <br>
+                    ${dateandtime}
+                    <div class="class-and-price">
+                        <div>${economclass}</div>
+                        <div>${economprice}</div>
+                    </div>  
+                    <div class="class-and-price">
+                        <div>${businessclass}</div>
+                        <div>${businessprice}</div>
+                    </div>   
+                    <div class="class-and-price">
+                        <div>${premclass}</div>
+                        <div>${premprice}</div>
+                    </div>   
+                </div> 
+      `;
+      divContainer.appendChild(flightinfo);
     }
   })
 
@@ -67,55 +79,9 @@ fetch(xmlPath)
                     </div>
                 </div>
            </div>
+        <div id="chupapimunyanya"> 
 
-            <div class="search-ticket">
-                <img src="photo/tick/Швейцария.jpg"> 
-                <div class="time-and-place">
-                    Минск - Берн 
-                    <br>
-                    30.11.2024 18:10
-                    <div class="class-and-price">
-                        <div>Эконом-класс</div>
-                        <div>1 122 BYN</div>
-                    </div>  
-                    <div class="class-and-price">
-                        <div>Бизнес-класс</div>
-                        <div>1 264 BYN</div>
-                    </div>   
-                    <div class="class-and-price">
-                        <div>Комфорт-премиум класс</div>
-                        <div>1 350 BYN</div>
-                    </div>   
-                </div> 
-            </div>
-
-            <div class="search-ticket">
-                <img src="photo/tick/Шанхай.jpg">                
-            </div>
-
-            <div class="search-ticket">
-                <img src="photo/tick/Токио.jpg">                
-            </div>
-
-            <div class="search-ticket">
-                <img src="photo/tick/Египет.jpg">                
-            </div>
-
-            <div class="search-ticket">
-                <img src="photo/tick/Тайланд.jpg">                
-            </div>
-
-            <div class="search-ticket">
-                <img src="photo/tick/монако.jpg">                
-            </div>
-
-            <div class="search-ticket">
-                <img src="photo/tick/париж.jpg">                
-            </div>
-
-            <div class="search-ticket">
-                <img src="photo/tick/филиппины.jpg">                
-            </div>
+        </div>
     </main>
 
     <footer>
