@@ -1,0 +1,269 @@
+@import url(import.css) (min-width: 768px) and (max-width: 1280px);
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin-top: 60px;
+    z-index: 1;
+      display: flex;
+      flex-flow: row wrap;
+      position: relative;
+  }
+  header {
+    z-index: 2;
+    width: 100%;
+    padding: 10px;
+    height: 40px;
+    flex-flow: row wrap;
+    background-color: #1E1E1E;
+    justify-content: space-between;
+    line-height: 40px;
+    position: fixed;
+    top:0;
+  }
+
+.main-page-main {
+  background:  linear-gradient(to bottom, #4C5767, #717578);
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+.nav-item {
+  margin: 0 10px;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  background-color: #333;
+}
+
+.nav-item a {
+  color: #333;
+}
+
+.item {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 2 1 300px;
+}
+
+.banner{
+  height: 540px;
+  width: 100%;
+  text-align: center;
+}
+
+.ticket { 
+  width: 70%;
+  height:10%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.banner img{
+  height: 540px;
+  width: 100%;
+}
+.mainrect {
+  height: 100%;
+  width: 100%;
+  background-color: #D9D9D9;
+  border-radius: 25px;
+  
+}
+
+.forms {
+  height: 45%;
+  text-align: center;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+
+}
+input {
+  margin-top: 25px;
+  border: none;
+  border-radius: 10px;
+}
+button {
+  background-color: #4C5767;
+  color: white;
+  height: 50px;
+  width: 15%;
+  margin-top: 25px;
+  font-size: larger;
+  border: none;
+  border-radius: 10px;
+}
+.shortinfo {
+  color: white;
+  margin: 30px 30px 0px 30px;
+  padding-bottom: 30px;
+}
+hr {
+  color: white;
+}
+.shortinfo h2 {
+  font-size: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.shortinfo p {
+  font-size: 20px;
+}
+.shortinfo div {
+  width: 70%;
+
+}
+.second-text {
+  text-align: right;
+}
+
+footer {
+  background-color: #1E1E1E;
+  padding: 20px;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+}
+footer a {
+  margin: 10px;
+}
+/**/
+.head-page h1 {
+  color: #B5C2D7;
+  text-align: center;
+}
+.partnersmain {
+  color: white;
+  width: 100%;
+  font-size: 25px;
+  background: linear-gradient(to bottom, #4C5767, #717578);
+}
+.partnersmain h2 {
+  padding: 10px 30px;
+}
+.partnersmain p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 0px 30px;
+}
+.partnersmain img {
+  padding: 0px;
+  width: 100%;
+  margin: 0px;
+  height: 500px;
+}
+
+.pic-bottom {
+  background: linear-gradient(to right, #4C5664, #D1D8DE);
+}
+.pic-bottom div
+/**/
+.informationmain {
+  display: flex;
+  flex-direction: row;
+  background:  linear-gradient(to bottom, #4C5767, #717578);
+  color: white;
+  width: 100%;
+  font-size: 25px;
+}
+
+.questions h2 {
+  padding: 10px 30px;
+}
+
+.questions p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 0px 30px;
+}
+
+.questions {
+  color: white;
+  margin: auto;
+  width: 150%;
+}
+
+.questions hr {
+  width: 95%;
+  margin: auto;
+}
+
+.info-menu {
+  width: 40%;
+  background-color: #1E1E1E;
+  color: white;
+  padding-left: 40px;
+}
+.biden {
+  position: fixed;
+}
+
+section ul {
+  padding-left: 70px;
+  padding-right: 30px;
+}
+
+.info-menu li {
+  font-size: 20px;
+  padding: 5px;
+}
+.info-menu a:hover {
+  background-color: #333;
+  transition: 0.3s;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.sub-list li {
+  list-style: none;
+}
+/**/
+.ticketsmain {
+  width: 100%;
+  background:  linear-gradient(to bottom, #4C5767, #717578);
+}
+.flight-info-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #D9D9D9;
+  border: none;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+  height: 170px;
+}
+
+.flight-info-container img {
+  height: 100%;
+  width: 15%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.time-and-place {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  margin: 20px;
+  width: 70%;
+}
+.time-and-place div {
+  font-size: 20px;
+}
+.class-and-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

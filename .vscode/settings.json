@@ -1,4 +1,11 @@
 {
     "liveServer.settings.port": 5501,
-    "editor.fontSize": 18
+    "editor.fontSize": 18,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/../css",
+        }
+    ],
 }

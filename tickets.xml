@@ -38,4 +38,126 @@
         <price-business>1 774 BYN</price-business>
         <price-prem>1 950 BYN</price-prem>
     </block>
+
+    <block>
+        <image>photo/tick/Египет.jpg</image>
+        <place>Минск - Каир</place>
+        <date-and-time>10.05.2024 23:06</date-and-time>
+        <econom>Эконом-класс</econom>
+        <business>Бизнес-класс</business>
+        <prem>Премиум-комфорт класс</prem>
+        <price-econom>1 032 BYN</price-econom>
+        <price-business>1 124 BYN</price-business>
+        <price-prem>1 450 BYN</price-prem>
+    </block>
+
+    <block>
+        <image>photo/tick/Тайланд.jpg</image>
+        <place>Минск - Бангкок</place>
+        <date-and-time>18.01.2024 15:40</date-and-time>
+        <econom>Эконом-класс</econom>
+        <business>Бизнес-класс</business>
+        <prem>Премиум-комфорт класс</prem>
+        <price-econom>2 082 BYN</price-econom>
+        <price-business>2 274 BYN</price-business>
+        <price-prem>2 670 BYN</price-prem>
+    </block>
+
+    <block>
+        <image>photo/tick/Монако.jpg</image>
+        <place>Минск - Монако</place>
+        <date-and-time>16.10.2024 20:10</date-and-time>
+        <econom>Эконом-класс</econom>
+        <business>Бизнес-класс</business>
+        <prem>Премиум-комфорт класс</prem>
+        <price-econom>1 052 BYN</price-econom>
+        <price-business>1 404 BYN</price-business>
+        <price-prem>1 900 BYN</price-prem>
+    </block>
+
+    <block>
+        <image>photo/tick/Париж.jpg</image>
+        <place>Минск - Париж</place>
+        <date-and-time>24.07.2024 11:35</date-and-time>
+        <econom>Эконом-класс</econom>
+        <business>Бизнес-класс</business>
+        <prem>Премиум-комфорт класс</prem>
+        <price-econom>967 BYN</price-econom>
+        <price-business>1 007 BYN</price-business>
+        <price-prem>1 120 BYN</price-prem>
+    </block>
+
+    <block>
+        <image>photo/tick/Филиппины.jpg</image>
+        <place>Минск - Манила</place>
+        <date-and-time>16.10.2024 20:10</date-and-time>
+        <econom>Эконом-класс</econom>
+        <business>Бизнес-класс</business>
+        <prem>Премиум-комфорт класс</prem>
+        <price-econom>1 132 BYN</price-econom>
+        <price-business>1 474 BYN</price-business>
+        <price-prem>1 550 BYN</price-prem>
+    </block>
+
+    <block>
+        <image>photo/tick/Венеция.jpg</image>
+        <place>Минск - Рим</place>
+        <date-and-time>09.11.2024 10:10</date-and-time>
+        <econom>Эконом-класс</econom>
+        <business>Бизнес-класс</business>
+        <prem>Премиум-комфорт класс</prem>
+        <price-econom>1 032 BYN</price-econom>
+        <price-business>1 276 BYN</price-business>
+        <price-prem>1 552 BYN</price-prem>
+    </block>
+
+    <block>
+        <image>photo/tick/Кипр.jpg</image>
+        <place>Минск - Кипр</place>
+        <date-and-time>29.11.2024 10:10</date-and-time>
+        <econom>Эконом-класс</econom>
+        <business>Бизнес-класс</business>
+        <prem>Премиум-комфорт класс</prem>
+        <price-econom>1 000 BYN</price-econom>
+        <price-business>1 176 BYN</price-business>
+        <price-prem>1 352 BYN</price-prem>
+    </block>
+
+    <block>
+        <image>photo/tick/Куба.jpg</image>
+        <place>Минск - Гавана</place>
+        <date-and-time>30.06.2024 17:30</date-and-time>
+        <econom>Эконом-класс</econom>
+        <business>Бизнес-класс</business>
+        <prem>Премиум-комфорт класс</prem>
+        <price-econom>1 678 BYN</price-econom>
+        <price-business>1 894 BYN</price-business>
+        <price-prem>2 006 BYN</price-prem>
+    </block>
+
+    <block>
+        <image>photo/tick/Лондон.jpg</image>
+        <place>Минск - Лондон</place>
+        <date-and-time>01.09.2024 4:20</date-and-time>
+        <econom>Эконом-класс</econom>
+        <business>Бизнес-класс</business>
+        <prem>Премиум-комфорт класс</prem>
+        <price-econom>856 BYN</price-econom>
+        <price-business>1 003 BYN</price-business>
+        <price-prem>1 208 BYN</price-prem>
+    </block>
+
+    <block>
+        <image>photo/tick/Маэ.jpg</image>
+        <place>Минск - Виктория</place>
+        <date-and-time>1.05.2024 7:30</date-and-time>
+        <econom>Эконом-класс</econom>
+        <business>Бизнес-класс</business>
+        <prem>Премиум-комфорт класс</prem>
+        <price-econom>1 567 BYN</price-econom>
+        <price-business>1 626 BYN</price-business>
+        <price-prem>1 727 BYN</price-prem>
+    </block>
+
+    
 </tickets>
