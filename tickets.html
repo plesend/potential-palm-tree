@@ -6,19 +6,50 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Tickets - Lidea Avia</title>
 
+   
+</head>
+<body>
+    <div class="container-ticket">
+
+        <header class="head-page">
+            <h1>ПОИСК БИЛЕТОВ</h1>
+        </header>
+
+    <main class="ticketsmain">
+
+            <div class="ticket">
+                <div class="forms">
+                    <form>
+                        <input type="text" placeholder="Откуда" id="departureInput" value="">
+                        <input type="text"  placeholder="Куда" id="destinationInput" value="">
+                        <button id="inputButton">Поиск</button>
+                    </form>
+                </div>
+           </div>
+
+        <div id="chupapimunyanya"></div>
+
+    </main>
+
+    <footer>
+        Our socials: <a>Instagram</a> <a>Telegram</a> <a>Viber</a>
+    </footer>
+
+    </div>
+
     <script>
         const xmlPath = 'tickets.xml';
-fetch(xmlPath)
-  .then(response => response.text())
-  .then(xml => {
+    fetch(xmlPath)
+    .then(response => response.text())
+    .then(xml => {
     const parser = new DOMParser();
     const xmlDocument = parser.parseFromString(xml, "application/xml");
 
     const ticketshow = xmlDocument.getElementsByTagName("block");
 
     const divContainer = document.getElementById("chupapimunyanya");
-    for(let i = 0; i < ticketshow.length; i++)
-    {
+
+    for(let i = 0; i < ticketshow.length; i++) {
       const ticket = ticketshow[i];
       const place = ticket.getElementsByTagName("place")[0].textContent;
       const dateandtime = ticket.getElementsByTagName("date-and-time")[0].textContent;
@@ -35,7 +66,7 @@ fetch(xmlPath)
       flightinfo.innerHTML = `
                 <img src="${image}"> 
                 <div class="time-and-place">
-                    ${place}
+                    <span id="depAndDesPlaces">${place}</span>
                     <br>
                     ${dateandtime}
                     <div class="class-and-price">
@@ -54,40 +85,40 @@ fetch(xmlPath)
       `;
       divContainer.appendChild(flightinfo);
     }
-  })
+  });
+
+
+const departure = document.getElementById('departureInput');//их айди вписываешь в скобки
+const destination = document.getElementById('destinationInput');//название переменных поменяешь на какие надо
+
+const applybutton = document.getElementById("inputButton");//айди кнопки поиск
+applybutton.addEventListener('click',(event) =>
+{
+    event.preventDefault();
+
+    const departurePoint = departure.value.toLowerCase();//получаешь значение из твоего импута, константы переименуешь
+    const destinationPoint = destination.value.toLowerCase();//получаешь значение из твоего импута, константы переименуешь
+
+    const ticketQuantity = document.querySelectorAll('.flight-info-container');
+
+    ticketQuantity.forEach(showTicket => {
+        const getPlaces = showTicket.querySelector('#depAndDesPlaces').textContent;
+        const departurePlace = getPlaces.split("-")[0].trim().toLowerCase();
+        const destinationPlace = getPlaces.split("-")[1].trim().toLowerCase();
+
+        console.log(departurePoint);
+        console.log(destinationPoint);
+
+        if((departurePoint === '' && destinationPoint === destinationPlace) || (departurePoint === departurePlace && destinationPoint === '') || (departurePoint === '' && destinationPoint === '') || (departurePoint === departurePlace && destinationPoint === destinationPlace)) {
+            showTicket.style.display = 'flex';
+        }
+        else {
+            showTicket.style.display = 'none';
+        }
+    });
+}
+);
 
     </script>
-</head>
-<body>
-    <div class="container">
-
-        <header class="head-page">
-            <h1>ПОИСК БИЛЕТОВ</h1>
-        </header>
-
-    <main class="ticketsmain">
-
-            <div class="ticket">
-                <div class="mainrect">
-                    <div class="forms">
-                        <form>
-                            <input type="text">
-                            <input type="text">
-                            <input type="text">
-                            <button>Поиск</button>
-                        </form>
-                    </div>
-                </div>
-           </div>
-        <div id="chupapimunyanya"> 
-
-        </div>
-    </main>
-
-    <footer>
-        Our socials: <a>Instagram</a> <a>Telegram</a> <a>Viber</a>
-    </footer>
-
-    </div>
 </body>
 </html>
