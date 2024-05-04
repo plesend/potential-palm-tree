@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Tickets - Lidea Avia</title>
-
-   
 </head>
 <body>
     <div class="container-ticket">
 
         <header class="head-page">
             <h1>ПОИСК БИЛЕТОВ</h1>
+            <a href="main.html" class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 200 200">
+                    <image xlink:href="photo/Logoty.svg"/>
+                </svg>
+            </a>
         </header>
 
     <main class="ticketsmain">
@@ -32,7 +35,7 @@
     </main>
 
     <footer>
-        Our socials: <a>Instagram</a> <a>Telegram</a> <a>Viber</a>
+        Подпишитесь на нас: <a>Instagram</a> <a>Telegram</a> <a>Viber</a>
     </footer>
 
     </div>
@@ -88,16 +91,16 @@
   });
 
 
-const departure = document.getElementById('departureInput');//их айди вписываешь в скобки
-const destination = document.getElementById('destinationInput');//название переменных поменяешь на какие надо
+const departure = document.getElementById('departureInput');
+const destination = document.getElementById('destinationInput');
 
-const applybutton = document.getElementById("inputButton");//айди кнопки поиск
+const applybutton = document.getElementById("inputButton");
 applybutton.addEventListener('click',(event) =>
 {
     event.preventDefault();
 
-    const departurePoint = departure.value.toLowerCase();//получаешь значение из твоего импута, константы переименуешь
-    const destinationPoint = destination.value.toLowerCase();//получаешь значение из твоего импута, константы переименуешь
+    const departurePoint = departure.value.toLowerCase();
+    const destinationPoint = destination.value.toLowerCase();
 
     const ticketQuantity = document.querySelectorAll('.flight-info-container');
 

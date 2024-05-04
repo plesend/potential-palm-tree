@@ -16,6 +16,18 @@
     </block>
 
     <block>
+        <image>photo/tick/Минск.jpg</image>
+        <place>Гавана - Минск</place>
+        <date-and-time>17.06.2024 15:30</date-and-time>
+        <econom>Эконом-класс</econom>
+        <business>Бизнес-класс</business>
+        <prem>Премиум-комфорт класс</prem>
+        <price-econom>1 678 BYN</price-econom>
+        <price-business>1 894 BYN</price-business>
+        <price-prem>2 006 BYN</price-prem>
+    </block>
+
+    <block>
         <image>photo/tick/Шанхай.jpg</image>
         <place>Минск - Шанхай</place>
         <date-and-time>19.12.2024 2:10</date-and-time>
@@ -39,16 +51,16 @@
         <price-prem>1 950 BYN</price-prem>
     </block>
 
-    <block>
-        <image>photo/tick/Египет.jpg</image>
-        <place>Минск - Каир</place>
-        <date-and-time>10.05.2024 23:06</date-and-time>
+     <block>
+        <image>photo/tick/Минск.jpg</image>
+        <place>Манила - Минск</place>
+        <date-and-time>10.10.2024 19:00</date-and-time>
         <econom>Эконом-класс</econom>
         <business>Бизнес-класс</business>
         <prem>Премиум-комфорт класс</prem>
-        <price-econom>1 032 BYN</price-econom>
-        <price-business>1 124 BYN</price-business>
-        <price-prem>1 450 BYN</price-prem>
+        <price-econom>1 132 BYN</price-econom>
+        <price-business>1 474 BYN</price-business>
+        <price-prem>1 550 BYN</price-prem>
     </block>
 
     <block>
@@ -64,9 +76,21 @@
     </block>
 
     <block>
+        <image>photo/tick/Минск.jpg</image>
+        <place>Каир - Минск</place>
+        <date-and-time>10.05.2024 23:06</date-and-time>
+        <econom>Эконом-класс</econom>
+        <business>Бизнес-класс</business>
+        <prem>Премиум-комфорт класс</prem>
+        <price-econom>1 032 BYN</price-econom>
+        <price-business>1 124 BYN</price-business>
+        <price-prem>1 450 BYN</price-prem>
+    </block>
+
+    <block>
         <image>photo/tick/Монако.jpg</image>
         <place>Минск - Монако</place>
-        <date-and-time>16.10.2024 20:10</date-and-time>
+        <date-and-time>16.10.2024 21:10</date-and-time>
         <econom>Эконом-класс</econom>
         <business>Бизнес-класс</business>
         <prem>Премиум-комфорт класс</prem>
@@ -97,6 +121,18 @@
         <price-econom>1 132 BYN</price-econom>
         <price-business>1 474 BYN</price-business>
         <price-prem>1 550 BYN</price-prem>
+    </block>
+
+    <block>
+        <image>photo/tick/Египет.jpg</image>
+        <place>Минск - Каир</place>
+        <date-and-time>10.05.2024 23:06</date-and-time>
+        <econom>Эконом-класс</econom>
+        <business>Бизнес-класс</business>
+        <prem>Премиум-комфорт класс</prem>
+        <price-econom>1 032 BYN</price-econom>
+        <price-business>1 124 BYN</price-business>
+        <price-prem>1 450 BYN</price-prem>
     </block>
 
     <block>
@@ -158,4 +194,29 @@
         <price-business>1 626 BYN</price-business>
         <price-prem>1 727 BYN</price-prem>
     </block>    
+
+    <block>
+        <image>photo/tick/Минск.jpg</image>
+        <place>Токио - Минск</place>
+        <date-and-time>13.10.2024 23:10</date-and-time>
+        <econom>Эконом-класс</econom>
+        <business>Бизнес-класс</business>
+        <prem>Премиум-комфорт класс</prem>
+        <price-econom>1 532 BYN</price-econom>
+        <price-business>1 774 BYN</price-business>
+        <price-prem>1 950 BYN</price-prem>
+    </block>
+
+    <block>
+        <image>photo/tick/Бразилия.jpg</image>
+        <place>Минск - Бразилиа</place>
+        <date-and-time>18.04.2024 06:39</date-and-time>
+        <econom>Эконом-класс</econom>
+        <business>Бизнес-класс</business>
+        <prem>Премиум-комфорт класс</prem>
+        <price-econom>1 345 BYN</price-econom>
+        <price-business>1 567 BYN</price-business>
+        <price-prem>2 789 BYN</price-prem>
+    </block>
+    
 </tickets>

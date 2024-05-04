@@ -32,7 +32,8 @@ header {
   width: 100%;
   padding: 10px;
   height: 40px;
-  flex-flow: row wrap;
+  display: flex;
+  flex-direction: row;
   background-color: #1E1E1E;
   justify-content: space-between;
   line-height: 40px;
@@ -65,6 +66,12 @@ a {
 
 .nav-item a {
   color: #333;
+}
+
+.nav-item img {
+  position: absolute;
+  top: 0;
+  left: 100;
 }
 
 .description {
@@ -105,11 +112,6 @@ a {
   width: 10%;
 }
 
-/*.item {
-    display: flex;
-    flex-flow: column wrap;
-    flex: 2 1 300px;
-}*/
 .banner {
   height: 540px;
   width: 100%;
@@ -144,26 +146,6 @@ form {
   justify-content: center;
 }
 
-/*
-.mainrect {
-  height: 100%;
-  width: 100%;
-  background-color: #D9D9D9;
-  border-radius: 25px;
-
-}
-
-.forms {
-  height: 45%;
-  text-align: center;
-}
-
-form{
-  display: flex;
-  justify-content: center;
-  gap: 100px;
-
-}*/
 input {
   margin-top: 25px;
   border: none;
@@ -184,35 +166,15 @@ button {
   height: 50px;
   width: 15%;
   margin-top: 25px;
-  font-size: 25px;
+  font-size: 30px;
   border: none;
   border-radius: 10px;
 }
 
-/*
-.shortinfo {
-  color: white;
-  margin: 30px 30px 0px 30px;
-  padding-bottom: 30px;
-}*/
 hr {
   color: white;
 }
 
-/*.shortinfo h2 {
-  font-size: 35px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.shortinfo p {
-  font-size: 25px;
-}
-.shortinfo div {
-  width: 70%;
-
-}
-.second-text {
-  text-align: right;
-}*/
 footer {
   background-color: #1E1E1E;
   width: 100%;
@@ -225,21 +187,16 @@ footer a {
   margin: 10px;
 }
 
-/*.first-text {
-    display: inline-block;
-    height: 100%;
-    width: 30%;
-}
 /**/
 .head-page h1 {
   color: #B5C2D7;
-  text-align: center;
+  margin: auto;
 }
 
 .partnersmain {
   color: white;
   width: 100%;
-  font-size: 25px;
+  font-size: 30px;
   background: linear-gradient(to bottom, #4C5767, #717578);
 }
 
@@ -261,7 +218,20 @@ footer a {
 }
 
 .pic-bottom {
-  background: linear-gradient(to right, #4C5664, #D1D8DE);
+  position: relative;
+  width: 100%;
+}
+
+.for-advertisement h2 {
+  margin: 20px;
+}
+
+.for-advertisement {
+  background: linear-gradient(to right, rgba(76, 86, 100, 0.7), rgba(209, 216, 222, 0.7));
+  position: absolute;
+  top: 80%;
+  width: 100%;
+  height: 19%;
 }
 
 /**/
@@ -271,7 +241,7 @@ footer a {
   background: linear-gradient(to bottom, #4C5767, #717578);
   color: white;
   width: 100%;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .questions h2 {
@@ -302,7 +272,7 @@ footer a {
   padding-left: 40px;
 }
 
-.biden {
+.right-menu {
   position: fixed;
 }
 
@@ -312,7 +282,7 @@ section ul {
 }
 
 .info-menu li {
-  font-size: 20px;
+  font-size: 25px;
   padding: 5px;
 }
 
@@ -331,6 +301,8 @@ section ul {
 .ticketsmain {
   width: 100%;
   background: linear-gradient(to bottom, #4C5767, #717578);
+  min-height: 100vh;
+  height: 100%;
 }
 
 .flight-info-container {
@@ -348,7 +320,7 @@ section ul {
 
 .flight-info-container img {
   height: 100%;
-  width: 15%;
+  width: 12%;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
