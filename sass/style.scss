@@ -68,6 +68,12 @@ a {
   top: 0;
   left: 100;
 }
+.quote {
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 .description {
     color: white;
     margin: auto;
@@ -262,9 +268,11 @@ section ul {
   font-size: 25px;
   padding: 5px;
 }
+.info-menu a {
+  transition: 0.3s;
+}
 .info-menu a:hover {
   background-color: #333;
-  transition: 0.3s;
   padding: 5px;
   border-radius: 4px;
 }

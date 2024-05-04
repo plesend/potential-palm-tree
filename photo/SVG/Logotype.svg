@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" width="25.51" height="32.79" viewBox="0 0 25.51 32.79">
+  <defs>
+    <style>
+      .d {
+        fill: #e6e6e6;
+      }
+
+      .e {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="c" data-name="Слой 1">
+    <g>
+      <path class="d" d="m9.96,9.07h2.24v2.45h-2.24v-2.45Zm0,4.59h2.24v11.62h-2.24v-11.62Z"/>
+      <path class="d" d="m15.92,10.29h3.23l6.36,22.5h-4.19l-3.79-16.33-3.79,16.33h-4.19l6.36-22.5Zm-2.16,15.12h7.7v3.17h-7.7v-3.17Z"/>
+      <polyline class="d" points="9 0 0 31.5 18 31.5 4.5 27"/>
+      <rect class="e" x="4.5" y="28.6" width="2.23" height="2.9"/>
+    </g>
+  </g>
+</svg>
