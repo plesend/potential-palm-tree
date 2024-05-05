@@ -50,7 +50,7 @@ header {
 }
 
 .main-page-main {
-  background: linear-gradient(to bottom, #4C5767, #717578);
+  background-image: linear-gradient(to bottom, #4C5767, #717578);
   margin: auto;
 }
 
@@ -310,61 +310,6 @@ section ul {
   display: none;
 }
 
-/*.menu-btn {
-  display: none;
-}
-
-.btn-line {
-  width: 30px;
-  height: 2px;
-  background-color: #333;
-  margin: 6px 0;
-}
-
-.right-menu {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 200px;
-  height: 100%;
-  background-color: #333;
-  padding: 20px;
-  transform: translateX(-100%);
-  transition: transform 0.3s ease-in-out;
-  z-index: 999;
-}
-
-.right-menu.active {
-  transform: translateX(0);
-}
-
-.close-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  color: #fff;
-  cursor: pointer;
-}
-
-.right-menu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.right-menu ul li {
-  margin-bottom: 10px;
-}
-
-.right-menu ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 18px;
-}
-
-.right-menu ul li a:hover {
-  color: #ffc107;
-}*/
 /**/
 .ticketsmain {
   width: 100%;
