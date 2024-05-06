@@ -1,4 +1,3 @@
-@import url(import.css) (min-width: 480px) and (max-width: 1280px);
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +12,7 @@
   }
 }
 body {
+  font-family: "Forum", serif;
   overflow-x: hidden;
 }
 
@@ -84,14 +84,10 @@ a {
 }
 
 .third-text img {
+  animation: quoteAnim 3s;
   height: 300px;
   width: 300px;
   margin: 1%;
-}
-
-.text img {
-  height: 300px;
-  width: 300px;
 }
 
 .description {
@@ -172,7 +168,7 @@ button {
   height: 50px;
   width: 15%;
   margin-top: 25px;
-  font-size: 30px;
+  font-size: 25px;
   border: none;
   border-radius: 10px;
 }
@@ -203,7 +199,7 @@ footer a {
   color: white;
   width: 100%;
   font-size: 30px;
-  background: linear-gradient(to bottom, #4C5767, #717578);
+  background-image: linear-gradient(to bottom, #4C5767, #717578);
 }
 
 .partnersmain h2 {
@@ -244,7 +240,7 @@ footer a {
 .informationmain {
   display: flex;
   flex-direction: row;
-  background: linear-gradient(to bottom, #4C5767, #717578);
+  background-image: linear-gradient(to bottom, #4C5767, #717578);
   color: white;
   width: 100%;
   font-size: 30px;
@@ -313,7 +309,7 @@ section ul {
 /**/
 .ticketsmain {
   width: 100%;
-  background: linear-gradient(to bottom, #4C5767, #717578);
+  background-image: linear-gradient(to bottom, #4C5767, #717578);
   min-height: 100vh;
   height: 100%;
 }

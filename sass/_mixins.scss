@@ -1,3 +1,4 @@
 @mixin gradient-background($start-color, $end-color) {
     background-image: linear-gradient(to bottom, $start-color, $end-color);
 }
+$semColor: #1E1E1E;
