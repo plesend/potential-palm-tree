@@ -27,7 +27,6 @@ const xmlPath = 'tickets.xml';
                 <img src="${image}"> 
                 <div class="time-and-place">
                     <span id="depAndDesPlaces">${place}</span>
-                    <br>
                     ${dateandtime}
                     <div class="class-and-price">
                         <div>${economclass}</div>

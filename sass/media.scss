@@ -112,6 +112,7 @@
       width: 200px;
       animation: quoteAnim 2s;
     }
+
   .third-text h2 {
     font-size: 25px;
   }
@@ -244,6 +245,7 @@
     .description {
       font-size: 18px;
       text-align: justify;
+      margin: 2px 2px 2px 2px;
     }
     .banner{
         height: 225px;
@@ -254,8 +256,8 @@
         width: 100%;
     }
     .third-text img {
-        height: 150px;
-        width: 150px;
+        height: 100px;
+        width: 100px;
         animation: quoteAnim 2s;
       }
     footer {
@@ -320,6 +322,13 @@
   }
 
   @media (max-width: 450px) {
+    .third-text img {
+      height: 70px;
+      width: 70px;
+    }
+    .third-text {
+      margin: 1px 2px 1px 2px;
+    }
     .time-and-place div {
       font-size: 15px;
     }

@@ -30,6 +30,7 @@ body{
   flex-flow: row wrap;
   position: relative;
   min-height: 100vh;
+  width: 100%;
   flex-direction: column;
 }
 header {
@@ -89,7 +90,7 @@ a {
     font-size: 30px;
 }
 .description div {
-    margin: 10px 30px 10px 30px;
+    margin: 5px 5px 5px 5px;
     display: flex;
     flex-direction: row;
 }
@@ -102,13 +103,7 @@ a {
   flex-direction: row;
   justify-content: center;
 }
-.text {
-  width: 80%;
-}
 
-.main-image {
-  width: 10%;
-}
 
 .banner{
   height: 540px;
@@ -165,13 +160,16 @@ hr {
 footer {
   background-color: $semColor;
   width: 100%;
-  padding: 20px;
   color: white;
   font-size: 20px;
 }
 footer a {
-  margin: 10px;
+  margin-left: 10px;
 }
+footer div {
+  padding: 10px;
+}
+
 
 /**/
 .head-page h1 {
