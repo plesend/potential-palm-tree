@@ -316,8 +316,16 @@
     }
     input {
       height: 50px;
+    }  
+  }
+
+  @media (max-width: 450px) {
+    .time-and-place div {
+      font-size: 15px;
     }
-    
+    .time-and-place {
+      font-size: 18px;
+    }
   }
   
   
