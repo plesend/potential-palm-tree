@@ -11,11 +11,6 @@
     opacity: 1;
   }
 }
-body {
-  font-family: "Forum", serif;
-  overflow-x: hidden;
-}
-
 .container {
   margin-top: 60px;
   z-index: 1;
@@ -44,9 +39,9 @@ header {
   display: flex;
   flex-direction: row;
   background-color: #1E1E1E;
-  justify-content: space-between;
   line-height: 40px;
   position: fixed;
+  justify-content: space-between;
   top: 0;
 }
 
